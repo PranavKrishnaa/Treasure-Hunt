@@ -19,6 +19,14 @@ class Security {
         this.button2.style('background', 'lightgrey');
 //add code for creating and positioning the third input box and button
         
+        this.access3 = createInput("Code1")
+        this.access3.position(100,320);
+        this.access3.style('background', 'white');  
+
+        this.button3 = createButton('Check');
+        this.button3.position(100,350);
+        this.button3.style('background', 'lightgrey');        
+
     }
 
     display(){
